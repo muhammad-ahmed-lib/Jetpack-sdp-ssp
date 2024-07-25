@@ -12,10 +12,14 @@ A Jetpack Compose library for handling scalable density pixels (SDP) and scalabl
 To use this library in your project, add the following to your `settings.gradle` file:
 
 dependencyResolutionManagement {
+
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+    
         mavenCentral()
+    
         maven { url 'https://jitpack.io' }
+        
     }
 }
 
