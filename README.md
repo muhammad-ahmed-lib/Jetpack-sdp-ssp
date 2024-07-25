@@ -18,10 +18,13 @@ dependencyResolutionManagement {
         maven { url 'https://jitpack.io' }
     }
 }
+
 Then, add the dependency in your build.gradle file:
 
 dependencies {
+
     implementation 'com.github.muhammad-ahmed-lib:Jetpack-sdp-ssp:alpha-1.0'
+    
 }
 ## Usage
 Scalable Density Pixels (SDP)
